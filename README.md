@@ -563,18 +563,35 @@ Fence: Fence quality
 ## References
 * https://www.analyticsvidhya.com/blog/2021/05/know-the-best-evaluation-metrics-for-your-regression-model/
 
+* https://www.delftstack.com/howto/seaborn/correlation-heatplot-seaborn-python/
+
+* https://medium.com/@chrisshaw982/seaborn-correlation-heatmaps-customized-10246f4f7f4b
+
+* https://stackoverflow.com/questions/35754511/manipulation-on-vertical-space-in-matplotlib-subplots
+
+* https://stackoverflow.com/questions/39068214/how-to-count-outliers-for-all-columns-in-python
+
+* https://stackoverflow.com/questions/24109779/running-get-dummies-on-several-dataframe-columns
+
+* https://gist.github.com/zhiyzuo/972b8b95e115c44d6805c929b7b4e2ca
+
+
 ## Inferences
- - 
- - 
- - 
- - 
- -   
+ - The final data set on which the regression exercise was undertaken comprised of 286 features of which the lasso regression pushed 171 to zero leaving only 115 features for modelling.
+- The ridge regression on the other hand worked on 286 features like with lasso, however, it could push only 20 features towards zero, leaving 266 variables for modelling.
+ - A comparative assessment of the regression metrics, indicates that the Lasso Regression has better predictive power over Ridge and Std Linear Regression (OLS). Therefore based on the findings at hand, in the extant example, it appears that usage of Lasso regression will yield better results.
+ 
 ## Critical Features
- - 
- - 
- - 
- - 
- - 
+ - RoofStyle_Shed
+ - RoofMatl_Roll
+ - RoofMatl_WdShake
+ - RoofMatl_Tar&Grv
+ - RoofMatl_CompShg
+ - RoofMatl_Membran
+ - RoofMatl_Metal
+ - 2ndFlrSF
+ - Condition2_PosA
+ - 1stFlrSF 
 
 
 ## Contact
