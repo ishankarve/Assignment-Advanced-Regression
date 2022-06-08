@@ -577,8 +577,8 @@ Fence: Fence quality
 
 
 ## Inferences
- - The final data set on which the regression exercise was undertaken comprised of 286 features of which the lasso regression pushed 171 to zero leaving only 115 features for modelling.
-- The ridge regression on the other hand worked on 286 features like with lasso, however, it could push only 20 features towards zero, leaving 266 variables for modelling.
+ - The final data set on which the regression exercise was undertaken comprised of 286 features of which the lasso regression pushed 78 to zero leaving only 208 features for modelling.
+- The ridge regression on the other hand worked on 286 features like with lasso, however, it could push only 12 features towards zero, leaving 274 variables for modelling.
  - A comparative assessment of the regression metrics, indicates that the Lasso Regression has better predictive power over Ridge and Std Linear Regression (OLS). Therefore based on the findings at hand, in the extant example, it appears that usage of Lasso regression will yield better results.
  
 ## Critical Features
